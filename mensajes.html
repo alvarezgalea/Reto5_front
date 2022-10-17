@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <h1>Mensajes</h1>
+        <ul> 
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="categoria.html">Categoria</a></li>
+            <li><a href="Cloud.html">Cloud</a></li>
+            <li><a href="cliente.html">Cliente</a></li>
+            <li><a href="reservaciones.html">Reservaciones</a></li>
+            <li><a href="reportes.html">Reportes</a></li>
+        </ul>
+
+
+        <script type="text/javascript">
+            window.onload = getMensaje();
+        </script>
+
+   
+       
+
+        <section>
+                <h1 align="center">Mensajes</h1>
+         </div>
+              <div>
+                <div>
+                  <div>
+                    
+                      <label>Texto del Mensaje</label>
+                      <input type="text" id="messageText" name="name">
+                    </div>
+              
+                  
+                  <div>
+                    <div>
+                      <label for="messageText">Description</label>
+                      <textarea id="messageText" name="message"></textarea>
+                    </div>
+
+                  </div>
+                  <div>
+                    <button onclick="postMensaje()">Crear Categoria</button>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div id="resultado1"></div>
+
+
+    </body>
+</html>

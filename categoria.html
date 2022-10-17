@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/funcionesCategoria.js"></script>  
+       
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Cloud.html">Cloud</a></li>
+                <li><a href="cliente.html">Cliente</a></li>
+                <li><a href="mensajes.html">Mensajes</a></li>
+                <li><a href="reservaciones.html">Reservaciones</a></li>
+                <li><a href="reportes.html">Reportes</a></li>
+            </ul>
+        </nav>
+
+        <script type="text/javascript">
+            window.onload = getCategoria();
+        </script>
+
+   
+       
+
+        <section>
+                <h1 align="center">Categorias</h1>
+         </div>
+              <div>
+                <div>
+                  <div>
+                    
+                      <label>Name</label>
+                      <input type="text" id="name" name="name">
+                    </div>
+              
+                  
+                  <div>
+                    <div>
+                      <label for="message">Description</label>
+                      <textarea id="description" name="message"></textarea>
+                    </div>
+
+                  </div>
+                  <div>
+                    <button onclick="postCategoria()">Crear Categoria</button>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div id="resultado1"></div>
+    </body>
+</html>

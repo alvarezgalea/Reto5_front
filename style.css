@@ -1,0 +1,82 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color: orange;
+
+}
+
+.titulo{
+  padding: 40px;
+  text-align: center;
+  color: #1B1245;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.imagen_cloud_portada{
+  text-align: center;
+}
+
+.imagen_cloud{
+  width: 400px;
+  height: 400px;
+}
+
+.reservaciones{
+  display: flex;
+  height: auto;
+
+}
+
+.capa_reservacion{
+  margin: 0px 50px 0px 0px;
+float: left;
+width: 1000px;
+
+  text-align: center;
+  color: #1B1245;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.imagen_reservacion{
+  display: flex;
+  padding: 0px 0px 50px 0px;
+  float: right;
+  align-content: flex-end;
+  }
+
+.reservacion_button{
+  padding: 15px;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.imagen_reser{
+  width: 300px;
+  height: 300px;
+}
